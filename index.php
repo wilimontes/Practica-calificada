@@ -11,7 +11,7 @@
 <div class="container">
     <h1>Consulta de Clientes</h1>
     <hr>
-    <button type="button" class="btn btn-primary btn-block" id="btnbuscar">Buscar</button>
+    <button type="button" class="btn btn-primary btn-block" id="btnbuscar">Consultar</button>
     <br>
     <table class="table table-hover text-nowrap">
             <thead>
