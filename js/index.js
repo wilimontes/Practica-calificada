@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function(){
-    iniciar();
+    buscar();
 })
 
-function iniciar() {
-    obtenerClientes();
+function buscar() {
+    const btnbuscar = document.querySelector('#btnbuscar');
+    btnbuscar.addEventListener('click', obtenerClientes);
 }
-
 async function obtenerClientes(){
     const url = "data/indexs.php?accion=listar";
     const respuesta = await fetch(url);
